@@ -1,0 +1,43 @@
+.formulario-registrar {
+    background-color: #f8f9fa; /* Fondo claro */
+    border: 2px solid #007bff; /* Borde de color azul */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+}
+
+.formulario-registrar h2 {
+    color: #007bff; /* Color del título */
+}
+
+.formulario-registrar .form-group {
+    margin-bottom: 20px; /* Espacio entre los campos */
+}
+
+.formulario-registrar .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.formulario-registrar .btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilo para el select */
+.custom-select {
+    background-color:#343a40; /* Fondo claro, igual que el formulario */
+    /* Borde azul */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 5px; /* Espaciado interno para el select */
+    font-size: 16px; /* Tamaño de fuente adecuado */
+    color: #f8f9fa; /* Color del texto */
+}
+
+.custom-select option {
+    background-color: #fff; /* Fondo blanco para las opciones */
+    color: #333; /* Color de texto en las opciones */
+}
+
+.custom-select:focus {
+    outline: none; /* Eliminar el contorno al hacer clic */
+    border-color: #0056b3; /* Borde más oscuro cuando se hace focus */
+}
